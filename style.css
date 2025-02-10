@@ -33,13 +33,17 @@ body {
     text-align: end;
     margin-right: 150px;
   }
-
   & p {
     font-size: 20;
     font-style: italic;
-    text-align: right;
-    margin-right: 50px;
+    justify-self: end;
     width: 50%;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  & nav {
+    background-color: var(--color4);
+    border: 3px solid var(--color3);
   }
 }
 
