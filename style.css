@@ -1,33 +1,10 @@
-.title {
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+:root {
+  --color1: #000000;
+  --color2: #14213d;
+  --color3: #fca311;
+  --color4: #e5e5e5;
+  --color5: #ffffff;
 }
-.name {
-  color: #034086;
-  font-family: "Emilys Candy", serif;
-  font-weight: 400;
-  font-style: normal;
-  justify-self: left;
-  margin-left: 50px;
-}
-.emilys-candy-regular {
-  font-family: "Emilys Candy", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.poste {
-  color: #034086;
-  font-family: "Emilys Candy", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding-left: 5px;
-  justify-self: left;
-  margin-left: 50px;
-}
-.center {
-  text-align: center;
-}
-body {
-  background-color: #f1ecec;
+html {
+  scroll-behavior: smooth;
 }
