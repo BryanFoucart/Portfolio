@@ -1,20 +1,10 @@
-.title {
-  color: red;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+:root {
+  --color1: #000000;
+  --color2: #14213d;
+  --color3: #fca311;
+  --color4: #e5e5e5;
+  --color5: #ffffff;
 }
-.name {
-  color: #034086;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  justify-self: center;
-}
-.poste {
-  color: #034086;
-  font-family: "Courier New", Courier, monospace;
-  border: 3px solid #034086;
-  padding: 10px;
-  justify-self: center;
-}
-body {
-  background-color: #f1ecec;
+html {
+  scroll-behavior: smooth;
 }
