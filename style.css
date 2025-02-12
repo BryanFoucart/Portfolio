@@ -23,7 +23,7 @@ body {
     font-size: 36px;
     font-weight: bold;
     text-align: end;
-    margin-right: 150px;
+    margin-right: 5em;
     justify-content: flex-end;
     padding-top: 25px;
   }
@@ -33,10 +33,10 @@ body {
     font-weight: bold;
     font-style: italic;
     justify-self: flex-end;
-    margin-right: 200px;
+    margin-right: 25%;
   }
   & p {
-    font-size: 20;
+    font-size: 20px;
     font-style: italic;
     justify-self: end;
     text-align: justify;
@@ -54,6 +54,24 @@ body {
   }
 }
 
+#A_Propos {
+  background-color: var(--color2);
+  width: 90%;
+  margin: auto;
+  color: var(--color5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & #texte_left,
+  #texte_right {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: auto;
+    width: 40%;
+    text-align: justify;
+  }
+}
 .progressbar {
   background-color: var(--progress);
   color: white;
@@ -115,23 +133,34 @@ h3#competences {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: var(--color2);
-  overflow: hidden;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+  /* float: right; */
   display: block;
-  color: var(--color2);
+  color: var(--color1);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  cursor: pointer;
+  outline: 1px solid var(--color3);
+  border-left: 1px solid var(--color3);
+}
+
+.topnav a:focus {
+  background-color: var(--color3);
+  color: var(--color5);
+  outline: 2px solid var(--color3); /* Ajoute un contour pour mieux voir le focus */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: var(--color2);
+  background-color: var(--color3);
   color: var(--color5);
 }
 
