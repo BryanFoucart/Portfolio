@@ -75,3 +75,39 @@ body {
   width: 50%;
   height: 5px;
 }
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+h3#competences {
+  font-size: 30px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.html2 {
+  width: 50%;
+  background-color: #04aa6d;
+}
+.css {
+  width: 37.5%;
+  background-color: #2196f3;
+}
+.js {
+  width: 25%;
+  background-color: #f44336;
+}
+.php {
+  width: 12.5%;
+  background-color: #808080;
+}
