@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Portfolio de Bryan Foucart</title>
   </head>
@@ -28,14 +32,15 @@
           id laoreet leo. Aliquam pharetra tellus nec ex scelerisque,
           scelerisque maximus est interdum. Vivamus ut porta leo.
         </p>
-        <nav id="nav">
-          <ul id="navigation_bar">
-            <a href="#">Accueil</a>
-            <a href="#A_Propos">À propos</a>
-            <a href="#Compétences">Compétences</a>
-            <a href="#Projets">Projets</a>
-            <a href="#Contact">Contact</a>
-          </ul>
+        <nav class="topnav" id="MyTopnav">
+          <a href="#" class="active">Accueil</a>
+          <a href="#A_Propos">À propos</a>
+          <a href="#Compétences">Compétences</a>
+          <a href="#Projets">Projets</a>
+          <a href="#Contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </nav>
       </section>
       <section id="A_Propos">
