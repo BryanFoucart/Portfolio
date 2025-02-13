@@ -210,3 +210,35 @@ body {
 .topnav .icon {
   display: none;
 }
+
+#Projets {
+  background-color: var(--color2);
+  width: 75%;
+  margin: auto;
+  color: var(--color5);
+
+  & h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: solid underline var(--color3);
+    padding-bottom: 50px;
+  }
+}
+
+#Contact {
+  background-color: var(--color2);
+  width: 75%;
+  margin: auto;
+  color: var(--color5);
+
+  & h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: solid underline var(--color3);
+    padding-bottom: 50px;
+  }
+}
