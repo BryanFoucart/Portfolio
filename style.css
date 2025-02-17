@@ -23,7 +23,11 @@ body {
   width: 75%;
   margin: auto;
   color: var(--color5);
-
+  & .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   & h1 {
     font-size: 4vh;
     font-weight: bold;
