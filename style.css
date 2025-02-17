@@ -63,6 +63,7 @@ body {
 
 #A_Propos {
   background-color: var(--color2);
+  height: 100vh;
   width: 75%;
   margin: auto;
   color: var(--color5);
