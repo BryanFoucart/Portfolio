@@ -275,3 +275,31 @@ body {
     padding-bottom: 50px;
   }
 }
+.icon-bar {
+  width: 50px;
+  background-color: #555;
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.active {
+  background-color: #04aa6d;
+  border-radius: 15px 15px 0 0;
+}
