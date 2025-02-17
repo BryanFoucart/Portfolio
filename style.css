@@ -202,7 +202,7 @@ body {
 .topnav a:hover {
   background-color: var(--color3);
   color: var(--color5);
-  border: 1px solid var(--color2);
+  border-inline: 1px solid var(--color2);
 }
 
 /* Add an active class to highlight the current page */
@@ -278,10 +278,9 @@ body {
 .icon-bar {
   width: 50px;
   background-color: #555;
-  margin-left: 10px;
+  justify-self: right;
+  margin-right: 10px;
   margin-top: 5px;
-  display: flex;
-  flex-direction: column;
   border-radius: 15px;
 }
 
@@ -299,7 +298,7 @@ body {
   border-radius: 15px;
 }
 
-.active {
+.active2 {
   background-color: #04aa6d;
   border-radius: 15px 15px 0 0;
 }
